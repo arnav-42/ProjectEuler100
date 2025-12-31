@@ -6,7 +6,7 @@ My motivation for doing this is twofold:
 2) I want to get better at Julia, C, and whatever other languages I hope to explore further in the future (Rust?), and these puzzles are an easy way to get familiar with the basics of any language.
 
 > [!WARNING] 
-> This is NOT meant to be the fastest or most elegant solutions.
+> These are NOT meant to be the fastest or most elegant solutions.
 > This is just me playing around with C!
 
 ## Progress:
