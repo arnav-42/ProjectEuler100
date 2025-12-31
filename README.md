@@ -14,8 +14,8 @@ My motivation for doing this is twofold:
 - [x] p1
 - [x] p2
 - [x] p3
-- [ ] p4
-- [ ] p5
+- [x] p4
+- [x] p5
 - [ ] p6
 - [ ] p7
 - [ ] p8
