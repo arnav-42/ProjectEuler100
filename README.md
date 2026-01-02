@@ -12,27 +12,29 @@ My motivation for doing this is to get better at Julia, C, and whatever other la
 > This is just me playing around!
 
 ## Progress:
-|  #  | Solved | Lang | Notes |
+| # |  Solved |  Lang |  Notes |
 |:---:|:------:|:----:|:-----:|
-| [1](p1/)  |  ✓   |  C   | Inclusion-Exclusion |
-| [2](p2/)  |  ✓   |  C   | Binet / Inverse Binet |
-| [3](p3/)  |  ✓   |  C   |  |
-| [4](p4/)  |  ✓   |  C   | Palindrome check with % and / |
-| [5](p5/)  |  ✓   |  C   |  |
-| [6](p6/)  |  ✓   |  C   |       |
-| [7](p7/)  |  ✓   |  C   | Sieve of Eratosthenes |
-|  8        |      |      |       |
-|  9        |      |      |       |
-| 10        |      |      |       |
-| 11        |      |      |       |
-| 12        |      |      |       |
-| 13        |      |      |       |
-| 14        |      |      |       |
-| 15        |      |      |       |
-| 16        |      |      |       |
-| 17        |      |      |       |
-| 18        |      |      |       |
-| 19        |      |      |       |
-| 20        |      |      |       |
+| [1](p1/) | ✓ | C | Inclusion-Exclusion |
+| [2](p2/) | ✓ | C | Binet / Inverse Binet |
+| [3](p3/) | ✓ | C |  |
+| [4](p4/) | ✓ | C | Palindrome check with % and / |
+| [5](p5/) | ✓ | C |  |
+| [6](p6/) | ✓ | C |  |
+| [7](p7/) | ✓ | C | Sieve of Eratosthenes |
+| [8](p8/) | ✓ | Julia |  |
+| 9 |  |  |  |
+| 10 |  |  |  |
+| 11 |  |  |  |
+| 12 |  |  |  |
+| 13 |  |  |  |
+| 14 |  |  |  |
+| 15 |  |  |  |
+| 16 |  |  |  |
+| 17 |  |  |  |
+| 18 |  |  |  |
+| 19 |  |  |  |
+| 20 |  |  |  |
+
+
 
 etc..
