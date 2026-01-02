@@ -1,26 +1,34 @@
 # ProjectEuler100
-Julia and C (maybe more in the future) solutions to the first 100 Project Euler questions.
+This repository contains solutions to the first 100 Project Euler questions as I go through them.
 
-My motivation for doing this is twofold:
-1) Even though I've solved and placed on leaderboards for the newer (and much more difficult) puzzles, I still never got around to solving the first 100. Apparently, they're supposed to teach the basics of solving these kinds of puzzles, so I hope to improve my Project Euler skills by doing them.
-2) I want to get better at Julia, C, and whatever other languages I hope to explore further in the future (Rust?), and these puzzles are an easy way to get familiar with the basics of any language.
+My motivation for doing this is to get better at Julia, C, and whatever other languages I hope to explore further in the future (Rust?), and these puzzles are an easy way to get familiar with the basics of any language.
 
 > [!WARNING] 
 > These are NOT meant to be the fastest or most elegant solutions.
-> This is just me playing around with C!
+> This is just me playing around!
 
 ## Progress:
-### C:
-- [x] p1
-- [x] p2
-- [x] p3
-- [x] p4
-- [x] p5
-- [x] p6
-- [x] p7
-- [ ] p8
-- [ ] p9
-- [ ] p10
-
+|  #  | Solved | Lang | Notes |
+|:---:|:------:|:----:|:-----:|
+| [1](p1/)  |  ✓   |  C   | Inclusion-Exclusion |
+| [2](p2/)  |  ✓   |  C   | Binet / Inverse Binet |
+| [3](p3/)  |  ✓   |  C   |  |
+| [4](p4/)  |  ✓   |  C   | Palindrome check with % and / |
+| [5](p5/)  |  ✓   |  C   |  |
+| [6](p6/)  |  ✓   |  C   |       |
+| [7](p7/)  |  ✓   |  C   | Sieve of Eratosthenes |
+|  8        |      |      |       |
+|  9        |      |      |       |
+| 10        |      |      |       |
+| 11        |      |      |       |
+| 12        |      |      |       |
+| 13        |      |      |       |
+| 14        |      |      |       |
+| 15        |      |      |       |
+| 16        |      |      |       |
+| 17        |      |      |       |
+| 18        |      |      |       |
+| 19        |      |      |       |
+| 20        |      |      |       |
 
 etc..
