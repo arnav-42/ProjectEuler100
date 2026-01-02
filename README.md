@@ -17,7 +17,7 @@ My motivation for doing this is twofold:
 - [x] p4
 - [x] p5
 - [x] p6
-- [ ] p7
+- [x] p7
 - [ ] p8
 - [ ] p9
 - [ ] p10
