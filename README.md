@@ -5,11 +5,14 @@ For a given problem number `x`, the problem is stated in `px.md` and the code fo
 
 The problem in the `px.md` files is the HTML source from [Project Euler](https://projecteuler.net/archives).
 
-My motivation for doing this is to get better at Julia, C, and whatever other languages I hope to explore further in the future (Rust?), and these puzzles are an easy way to get familiar with the basics of any language.
-
-> [!WARNING] 
-> These are NOT meant to be the fastest or most elegant solutions.
-> This is just me playing around!
+> [!WARNING]
+> These programs are not guaranteed to be portable.
+>
+> Tested on Ubuntu 22.04.3 (WSL2), GCC 11.4.0, x86_64, and 8 MB stack size.
+>
+> Some programs assume this stack size and may fail elsewhere.
+>
+> If a program segfaults, try increasing the stack limit, or refactor to use heap.
 
 ## Progress:
 | # |  Solved |  Lang |  Notes |
