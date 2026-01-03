@@ -26,7 +26,7 @@ The problem in the `px.md` files is the HTML source from [Project Euler](https:/
 | [7](p7/) | ✓ | C | Sieve of Eratosthenes |
 | [8](p8/) | ✓ | Julia |  |
 | [9](p9/) | ✓ | C | Euclid's Formula |
-| 10 |  |  |  |
+| [10](p10/) | ✓ | C | Sieve of Eratosthenes |
 | 11 |  |  |  |
 | 12 |  |  |  |
 | 13 |  |  |  |
