@@ -22,7 +22,7 @@ My motivation for doing this is to get better at Julia, C, and whatever other la
 | [6](p6/) | ✓ | C |  |
 | [7](p7/) | ✓ | C | Sieve of Eratosthenes |
 | [8](p8/) | ✓ | Julia |  |
-| 9 |  |  |  |
+| [9](p9/) | ✓ | C | Euclid's Formula |
 | 10 |  |  |  |
 | 11 |  |  |  |
 | 12 |  |  |  |
