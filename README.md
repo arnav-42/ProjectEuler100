@@ -6,13 +6,9 @@ For a given problem number `x`, the problem is stated in `px.md` and the code fo
 The problem in the `px.md` files is the HTML source from [Project Euler](https://projecteuler.net/archives).
 
 > [!WARNING]
-> These programs are not guaranteed to be portable.
+> These programs are not guaranteed to be portable. They are tested on Ubuntu 22.04.3 (WSL2), GCC 11.4.0, x86_64, and 8 MB stack.
 >
-> Tested on Ubuntu 22.04.3 (WSL2), GCC 11.4.0, x86_64, and 8 MB stack size.
->
-> Some programs assume this stack size and may fail elsewhere.
->
-> If a program segfaults, try increasing the stack limit, or refactor to use heap.
+> Some programs assume this stack size and may fail elsewhere. If a program segfaults, try increasing the stack limit, or refactor to use heap.
 
 ## Progress:
 | # |  Solved |  Lang |  Notes |
