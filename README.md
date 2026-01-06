@@ -26,7 +26,7 @@ The problem in the `px.md` files is the HTML source from [Project Euler](https:/
 | [11](p11/) | ✓ | C |  |
 | [12](p12/) | ✓ | C |  |
 | [13](p13/) | ✓ | Julia |  |
-| 14 |  |  |  |
+| [14](p14/) | ✓ | C | Collatz heuristic |
 | 15 |  |  |  |
 | 16 |  |  |  |
 | 17 |  |  |  |
