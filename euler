@@ -1,0 +1,86 @@
+#!/usr/bin/env bash
+set -e
+
+# Defaults
+PROB=""
+LANG=""
+
+# Parse args like p=10 lang=c
+for arg in "$@"; do
+  case $arg in
+    p=*)
+      PROB="${arg#p=}"
+      ;;
+    lang=*)
+      LANG="${arg#lang=}"
+      ;;
+    *)
+      echo "Unknown argument: $arg"
+      exit 1
+      ;;
+  esac
+done
+
+if [[ -z "$PROB" || -z "$LANG" ]]; then
+  echo "Usage: euler p=<number> lang=<c|julia>"
+  exit 1
+fi
+
+DIR="p${PROB}"
+mkdir -p "$DIR"
+
+# -----------------------
+# Fetch problem statement
+# -----------------------
+curl -fsSL "https://projecteuler.net/minimal=${PROB}" \
+| pandoc -f html -t gfm \
+> "$DIR/p${PROB}.md"
+
+# -----------------------
+# Language-specific files
+# -----------------------
+case "$LANG" in
+  c)
+    cat > "$DIR/main.c" << 'EOF'
+#include <stdio.h>
+#include <time.h>
+//#include <stdlib.h>
+//#include <math.h>
+
+int main(void) {
+
+    clock_t t0 = clock();
+
+
+
+    clock_t t1 = clock();
+
+
+
+    double cpu_time_used = ((double)(t1 - t0)) / CLOCKS_PER_SEC;
+    printf("Time: %f seconds\n", cpu_time_used);
+    return 0;
+
+}
+EOF
+    ;;
+  julia)
+    cat > "$DIR/main.jl" << 'EOF'
+using Printf
+
+t0 = time()
+
+
+
+t1 = time()
+
+@printf("Time: %f seconds\n", t1 - t0)
+EOF
+    ;;
+  *)
+    echo "Invalid language: $LANG (use c or julia)"
+    exit 1
+    ;;
+esac
+
+echo "Created $DIR (lang=$LANG)"
