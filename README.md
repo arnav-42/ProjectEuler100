@@ -26,7 +26,7 @@ I use my [euler-cli tool](https://github.com/arnav-42/euler-cli) to generate eac
 | [12](p12/) | ✓ | C |  |
 | [13](p13/) | ✓ | Julia |  |
 | [14](p14/) | ✓ | C | Collatz heuristic |
-| 15 |  |  |  |
+| [15](p15/) | ✓ | Julia | Combinatorics |
 | 16 |  |  |  |
 | 17 |  |  |  |
 | 18 |  |  |  |
