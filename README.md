@@ -1,9 +1,8 @@
 # ProjectEuler100
+
 This repository contains solutions to the first 100 Project Euler questions as I go through them.
 
-For a given problem number `x`, the problem is stated in `px.md` and the code for the solution in `px.c` or `px.jl`.
-
-The problem in the `px.md` files is the HTML source from [Project Euler](https://projecteuler.net/archives).
+I use my [euler-cli tool](https://github.com/arnav-42/euler-cli) to generate each problem folder stub. For a given problem number `x`, the problem is stated in `px.md` and the code for the solution in `px.c` or `px.jl`. The problem in the `px.md` files is the HTML source from [Project Euler](https://projecteuler.net/archives).
 
 > [!WARNING]
 > These programs are not guaranteed to be portable. They are tested on Ubuntu 22.04.3 (WSL2), GCC 11.4.0, x86_64, and 8 MB stack.
